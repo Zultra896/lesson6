@@ -1,0 +1,103 @@
+.containerA {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.containerB {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.box1 {
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin: 10px;
+    padding: 3px;
+}
+
+.containerC {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 3px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 3px;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding: 3px;
+}
+
+.containerD {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding-top: 3px;
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-bottom: 3px;
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
